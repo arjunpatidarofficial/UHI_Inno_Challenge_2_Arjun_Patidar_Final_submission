@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">HealthTalk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">hello</string>
+    <string name="agora_app_id" translatable="false">28ae416a582d46d995bdfdd0390d4b50</string>
+
+    <string name="user_registration_notification" translatable="false">Welcome to the smart health community of Nuvocliniq users</string>
+
+    <!-- Obtain a temp Access Token at https://dashboard.agora.io -->
+    <!-- You will need to deploy your own token server for production release -->
+    <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
+    <string name="agora_access_token" translatable="false">00628ae416a582d46d995bdfdd0390d4b50IAB8tgAkQ1SizUgU/k+wPQSJcVDBRdt18nVeDT6nL8I2kyMnEDcAAAAAEACpE93I4C32XwEAAQDgLfZf</string>
+</resources>

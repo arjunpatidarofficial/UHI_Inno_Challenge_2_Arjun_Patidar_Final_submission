@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "1000864417404",
+    "firebase_url": "https://nuvocliniq-test-default-rtdb.firebaseio.com",
+    "project_id": "nuvocliniq-test",
+    "storage_bucket": "nuvocliniq-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000864417404:android:95011a879bc215cbf7ebf9",
+        "android_client_info": {
+          "package_name": "in.healthtalk.patientTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000864417404-33vp2l87sj7224mfg681no8inph59ghs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.healthtalk.patientTest",
+            "certificate_hash": "cb809c0788680ee09fe07525ee11f887bca39d09"
+          }
+        },
+        {
+          "client_id": "1000864417404-q3a3e2sbmjhvrm6mjctfldkpk5br17ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBifulyr9mzyAqdu-mlhJhbeFG1aUfkWmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000864417404-q3a3e2sbmjhvrm6mjctfldkpk5br17ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000864417404:android:8457fdcf88aa0a31f7ebf9",
+        "android_client_info": {
+          "package_name": "in.nuvocliniq.doctorTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000864417404-rn3eaq63h17ts09kvtoo9fcjipoinfl3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.nuvocliniq.doctorTest",
+            "certificate_hash": "1743eedc96ba97a1ccd89d5ecceefda6b8182339"
+          }
+        },
+        {
+          "client_id": "1000864417404-q3a3e2sbmjhvrm6mjctfldkpk5br17ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBifulyr9mzyAqdu-mlhJhbeFG1aUfkWmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000864417404-q3a3e2sbmjhvrm6mjctfldkpk5br17ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000864417404:android:b1ccc48f31509da2f7ebf9",
+        "android_client_info": {
+          "package_name": "in.nuvocliniq.patientTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000864417404-id1aoqs74ndp6rhraereqq6s75ubdgo0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.nuvocliniq.patientTest",
+            "certificate_hash": "cb809c0788680ee09fe07525ee11f887bca39d09"
+          }
+        },
+        {
+          "client_id": "1000864417404-q3a3e2sbmjhvrm6mjctfldkpk5br17ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBifulyr9mzyAqdu-mlhJhbeFG1aUfkWmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000864417404-q3a3e2sbmjhvrm6mjctfldkpk5br17ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/nuvocliniq_patient_android-master/healthtalk_patient_android/app/src/main/res/layout/activity_about.xml" value="0.1" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/drawable-v24/btn_endcall.xml" value="0.115" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/drawable/arrow_black.xml" value="0.115" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/drawable/btn.xml" value="0.115" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/drawable/btnyellow.xml" value="0.115" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_about.xml" value="0.22" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_appoinment.xml" value="0.14666666666666667" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_appoinment_sub.xml" value="0.1" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_appointment_view.xml" value="0.23092369477911648" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_group_consultation.xml" value="0.17552083333333332" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_payment.xml" value="0.1" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_slot_view.xml" value="0.1" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_telemadicine.xml" value="0.16666666666666666" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/activity_welcome.xml" value="0.1" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/fragment_other_pres.xml" value="0.17552083333333332" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/fragment_past_pres.xml" value="0.17552083333333332" />
+        <entry key="..\:/nuvocliniq_patient_android-master/nuvocliniq_patient_android-master/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

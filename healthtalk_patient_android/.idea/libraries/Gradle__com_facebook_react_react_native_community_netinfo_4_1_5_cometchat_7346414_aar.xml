@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-community_netinfo:4.1.5-cometchat-7346414@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/17b8fe3d606a035a8aced7d1e33f1c16/jetified-react-native-community_netinfo-4.1.5-cometchat-7346414/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/17b8fe3d606a035a8aced7d1e33f1c16/jetified-react-native-community_netinfo-4.1.5-cometchat-7346414/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/17b8fe3d606a035a8aced7d1e33f1c16/jetified-react-native-community_netinfo-4.1.5-cometchat-7346414/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-community_netinfo/4.1.5-cometchat-7346414/6ca661750e3bc2be2b7c4353316d4a8eabfe92f2/react-native-community_netinfo-4.1.5-cometchat-7346414-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

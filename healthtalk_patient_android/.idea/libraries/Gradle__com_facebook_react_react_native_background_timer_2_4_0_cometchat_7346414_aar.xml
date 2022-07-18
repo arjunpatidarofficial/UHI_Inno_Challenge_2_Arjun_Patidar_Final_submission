@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.react:react-native-background-timer:2.4.0-cometchat-7346414@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec758979a64dc9d4e2a5708083897235/jetified-react-native-background-timer-2.4.0-cometchat-7346414/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec758979a64dc9d4e2a5708083897235/jetified-react-native-background-timer-2.4.0-cometchat-7346414/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec758979a64dc9d4e2a5708083897235/jetified-react-native-background-timer-2.4.0-cometchat-7346414/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.react/react-native-background-timer/2.4.0-cometchat-7346414/71b943beb97f643eb4d25bd1d4e186d2f9bed97/react-native-background-timer-2.4.0-cometchat-7346414-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

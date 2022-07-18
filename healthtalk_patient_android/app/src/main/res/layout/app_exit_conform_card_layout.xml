@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:forceDarkAllowed="false"
+    app:cardCornerRadius="10dp"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:paddingHorizontal="15dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/message"
+                android:fontFamily="@font/kollek"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text=""/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/message"
+                android:orientation="horizontal"
+                android:paddingHorizontal="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="CANCEL"
+                    android:id="@+id/cancel"
+                    android:textSize="14dp"
+                    android:fontFamily="@font/kollek"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="LEAVE"
+                    android:id="@+id/exit"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kollek"
+                    android:background="@drawable/btn"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="35dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

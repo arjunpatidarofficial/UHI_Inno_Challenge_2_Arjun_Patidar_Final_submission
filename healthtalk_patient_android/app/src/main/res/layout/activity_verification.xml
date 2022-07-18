@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".Auth.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:id="@+id/close"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Verification"
+                    android:id="@+id/txtHeader"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="6dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/kollek"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/verificationLayout"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kollek"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="Phone number"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kollek"
+                            android:textSize="15dp"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@color/green"
+                            android:text="Message sent"/>
+
+                    </RelativeLayout>
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/ring_layout"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kollek"
+                            android:textSize="18dp"
+                            android:id="@+id/number"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="3dp"
+                            android:textColor="@color/black"/>
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_marginLeft="15dp"
+                            android:src="@drawable/checked"
+                            android:layout_marginRight="15dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_height="16dp"/>
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kollek"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16dp"
+                        android:id="@+id/editNumber"
+                        android:layout_gravity="right"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Edit phone number"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/kollek"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Please enter the OTP received by you to verify your number. The OTP is active for 10 minutes only"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="150dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:textSize="15dp"
+                            android:layout_gravity="right"
+                            android:fontFamily="@font/kollek"
+                            android:textColor="@color/black"
+                            android:text="Required"/>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/txtCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="11dp"
+                        android:paddingHorizontal="15dp"
+                        android:background="@drawable/ring_layout"
+                        android:hint="Enter verification code"
+                        android:fontFamily="@font/kollek"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#9E9E9E"
+                        android:textSize="16dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/btn"
+                        android:text="Next"
+                        android:fontFamily="@font/kollek"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kollek"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16dp"
+                        android:layout_gravity="right"
+                        android:textStyle="bold"
+                        android:id="@+id/resend"
+                        android:textColor="@color/green"
+                        android:text="Resend verification code"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/progressLayout"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kollek"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Please wait"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
